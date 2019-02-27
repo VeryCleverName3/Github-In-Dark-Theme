@@ -1,0 +1,21 @@
+{
+
+  "name": "Github dark theme",
+
+  "version": "1.0",
+
+  "description": "dark github",
+
+	"permissions": [
+		"activeTab"
+	],
+  "content_scripts": [
+   {
+     "matches": ["https://github.com/*"],
+     "css": [],
+     "js": ["changeStyles.js"]
+   }
+ ],
+ "manifest_version": 2
+
+}
